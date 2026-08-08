@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MAUI'S DINO ZONE — WEBSITE ENGINE
+   MAUI'S DINO ZONE · WEBSITE ENGINE
    You don't need to edit this file. All the content lives in dinos.js
    ========================================================================== */
 
@@ -30,7 +30,7 @@
 
       <div class="card-body">
         <h3>${d.name}</h3>
-        <div class="say">"${d.nickname}" &mdash; say it: ${d.say}</div>
+        <div class="say">"${d.nickname}" · say it: ${d.say}</div>
         <p class="about">${d.about}</p>
 
         <div class="stat">
@@ -74,7 +74,7 @@
   });
 
   /* ======================================================================
-     2. LOAD THE PICTURES  —  three steps, in this order:
+     2. LOAD THE PICTURES · three steps, in this order:
 
        STEP 1  Maui's own picture   (assets/img/trex.jpg)
        STEP 2  a real photo from Wikipedia  (needs internet)
@@ -110,7 +110,7 @@
         step = 3;
         img.src = artwork;
       }
-      // step 3 failing would be impossible — the file ships with the site
+      // step 3 failing would be impossible · the file ships with the site
     });
 
     img.src = d.image;                     // STEP 1
@@ -211,13 +211,13 @@
     if (a.brains > b.brains) pa++; else if (b.brains > a.brains) pb++;
 
     if (pa === pb) {
-      verdict.innerHTML = '⚔️ IT\'S A DRAW! <small>These two are evenly matched — it would be an epic fight.</small>';
+      verdict.innerHTML = '⚔️ IT\'S A DRAW! <small>These two are evenly matched, so it would be an epic fight.</small>';
     } else {
       const w = pa > pb ? a : b;
       const l = pa > pb ? b : a;
       verdict.innerHTML = '🏆 ' + w.name + ' WINS!' +
         '<small>' + w.name + ' beats ' + l.name + ' on ' + Math.max(pa, pb) +
-        ' out of 3 stats. Remember: this is just for fun — most of these dinosaurs never even met!</small>';
+        ' out of 3 stats. Remember: this is just for fun, and most of these dinosaurs never even met!</small>';
     }
   }
 
@@ -291,7 +291,7 @@
     } else {
       btn.classList.add('wrong');
       all[q.answer].classList.add('correct');
-      fb.innerHTML = '<span class="head bad">❌ ROAR-ONG!</span>' + q.why;
+      fb.innerHTML = '<span class="head bad">❌ ROAR! NOT QUITE!</span>' + q.why;
     }
 
     const next = document.createElement('button');
@@ -361,7 +361,7 @@
     // Safety net: if anything is still hidden after 4 seconds, just show it.
     setTimeout(showEverything, 4000);
   } else {
-    showEverything();                      // very old browser — no animation, but visible
+    showEverything();                      // very old browser · no animation, but visible
   }
 
   /* ======================================================================

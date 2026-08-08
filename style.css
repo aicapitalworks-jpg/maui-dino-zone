@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MAUI'S DINO ZONE — STYLESHEET
+   MAUI'S DINO ZONE · STYLESHEET
    Colours: green · yellow · black · dark grey · white
    ========================================================================== */
 
@@ -29,7 +29,7 @@ body{
   line-height:1.5;
 }
 
-/* If Bungee can't load (no internet), fall back to a heavy sans — never a serif */
+/* If Bungee can't load (no internet), fall back to a heavy sans, never a serif */
 h1,h2,h3,.display{
   font-family:'Bungee','Arial Black','Helvetica Neue',Impact,sans-serif;
   font-weight:800;letter-spacing:.5px;
