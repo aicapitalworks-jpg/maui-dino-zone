@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460">
+<defs>
+  <linearGradient id="sky-triceratops" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#242a24"/>
+    <stop offset="55%" stop-color="#171b17"/>
+    <stop offset="100%" stop-color="#0d0f0d"/>
+  </linearGradient>
+  <radialGradient id="sun-triceratops" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFD427" stop-opacity=".55"/>
+    <stop offset="70%" stop-color="#FFD427" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#FFD427" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="body-triceratops" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFD427"/>
+    <stop offset="100%" stop-color="#1b2a14"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="460" fill="url(#sky-triceratops)"/>
+<circle cx="592" cy="150" r="185" fill="url(#sun-triceratops)"/>
+<circle cx="592" cy="150" r="74" fill="#FFD427" opacity=".16"/>
+
+<!-- far hills -->
+<path d="M0 372 L92 322 L168 356 L248 306 L336 352 L432 300 L540 350 L640 312 L724 352 L800 322 L800 460 L0 460 Z" fill="#0b0d0b" opacity=".85"/>
+
+<!-- ground -->
+<rect y="400" width="800" height="60" fill="#0a0c0a"/>
+
+
+<g fill="url(#body-triceratops)">
+  <!-- body + tail -->
+  <path d="M552 214 Q470 194 384 202 Q292 210 226 246
+    Q186 268 150 268 Q116 268 84 254 Q112 282 156 290 Q196 296 232 286
+    L236 356 Q234 392 226 424 L264 424 Q276 386 274 350 L272 300
+    Q356 318 440 306 L444 356 Q442 392 434 424 L472 424
+    Q484 386 482 350 L480 296 Q528 280 556 250 Z"/>
+  <!-- extra legs (far side) -->
+  <path d="M300 292 L296 420 L324 420 L330 292 Z" fill="#16210f"/>
+  <path d="M498 288 L494 420 L522 420 L528 288 Z" fill="#16210f"/>
+  <!-- neck frill -->
+  <path d="M556 250 Q536 190 566 142 Q600 92 656 92 Q706 92 730 132 Q752 172 738 218
+    Q724 258 682 268 Q612 282 556 250 Z"/>
+  <!-- frill bumps -->
+  <g fill="#5f8f34" opacity=".5">
+    <circle cx="580" cy="140" r="8"/><circle cx="616" cy="112" r="8"/>
+    <circle cx="660" cy="102" r="8"/><circle cx="704" cy="122" r="8"/>
+    <circle cx="730" cy="164" r="8"/><circle cx="726" cy="212" r="8"/>
+  </g>
+  <!-- head / beak -->
+  <path d="M672 168 Q724 172 762 200 Q788 220 782 244 Q772 268 740 268
+    Q700 266 674 240 Q656 214 672 168 Z"/>
+  <!-- beak tip -->
+  <path d="M782 244 Q794 250 790 262 Q778 274 758 268 Q772 260 782 244 Z" fill="#0f1a0b"/>
+</g>
+<!-- brow horns -->
+<g fill="#E8E6DA">
+  <path d="M712 176 Q742 128 764 92 Q762 140 738 186 Z"/>
+  <path d="M676 186 Q696 138 712 100 Q714 148 700 192 Z" opacity=".7"/>
+  <!-- nose horn -->
+  <path d="M752 216 Q766 194 776 180 Q780 202 772 224 Z"/>
+</g>
+<!-- eye -->
+<circle cx="706" cy="214" r="7" fill="#0a0c0a"/>
+<circle cx="708" cy="212" r="3" fill="#FFD427"/>
+
+<title>TRICERATOPS</title>
+</svg>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maui's Dino Zone — Everything About Dinosaurs</title>
+<meta name="description" content="Maui's Dino Zone: dinosaur facts, power stats, ID files, a battle arena and a quiz. Built for dinosaur fans.">
+<meta name="theme-color" content="#101210">
+
+<!-- Social sharing preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maui's Dino Zone">
+<meta property="og:description" content="Five legendary dinosaurs, full ID files, a battle arena and a quiz.">
+<meta property="og:image" content="trex.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦖</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#dinos">Skip to the dinosaurs</a>
+
+<!-- ══════════ NAVIGATION ══════════ -->
+<nav>
+  <div class="logo">🦖 MAUI'S <span>DINO ZONE</span></div>
+  <div class="navlinks">
+    <a href="#dinos">Dinos</a>
+    <a href="#arena">Battle</a>
+    <a href="#eras">Time Travel</a>
+    <a href="#facts">Fact Machine</a>
+    <a href="#quiz">Quiz</a>
+  </div>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<header class="hero">
+  <div class="deco d1">🦴</div>
+  <div class="deco d2">🌋</div>
+  <div class="badge">⚡ 66 MILLION YEARS IN THE MAKING</div>
+  <h1>WELCOME TO<br>THE <span class="g">DINO</span> <span class="y">ZONE</span></h1>
+  <p class="lead">Giant hunters. Armoured tanks. Long-neck legends. Everything you need to know about the coolest creatures that ever stomped the Earth.</p>
+  <div class="hero-buttons">
+    <a class="btn btn-green" href="#dinos">MEET THE DINOS ↓</a>
+    <a class="btn btn-yellow" href="#arena">BATTLE ARENA ⚔️</a>
+  </div>
+</header>
+
+<!-- ══════════ TICKER ══════════ -->
+<div class="ticker" aria-hidden="true"><div class="ticker-inner">
+  <b>🦖 T. REX BITE = 3 CARS OF CRUSHING POWER</b><b>🥚 SOME DINO EGGS WERE THE SIZE OF FOOTBALLS</b><b>🐔 CHICKENS ARE DINO COUSINS. SERIOUSLY.</b><b>⚡ VELOCIRAPTORS HAD FEATHERS</b><b>🌋 DINOS RULED FOR 165 MILLION YEARS</b>
+  <b>🦖 T. REX BITE = 3 CARS OF CRUSHING POWER</b><b>🥚 SOME DINO EGGS WERE THE SIZE OF FOOTBALLS</b><b>🐔 CHICKENS ARE DINO COUSINS. SERIOUSLY.</b><b>⚡ VELOCIRAPTORS HAD FEATHERS</b><b>🌋 DINOS RULED FOR 165 MILLION YEARS</b>
+</div></div>
+
+<!-- ══════════ THE DINOSAURS ══════════ -->
+<section id="dinos">
+  <div class="kicker">// The Squad</div>
+  <h2>MEET THE DINOS</h2>
+  <p class="sub">Five legends with full ID files. The yellow note on every card is <b>Maui's spot</b> — that's where he writes his own interesting fact.</p>
+
+  <div class="filters">
+    <button class="active" data-filter="all">ALL DINOS</button>
+    <button data-filter="meat">🥩 MEAT EATERS</button>
+    <button data-filter="plant">🌿 PLANT EATERS</button>
+  </div>
+
+  <div class="grid" id="dino-grid"><!-- built by app.js from dinos.js --></div>
+</section>
+
+<!-- ══════════ BATTLE ARENA ══════════ -->
+<div class="arena-wrap"><section id="arena">
+  <div class="kicker">// Just For Fun</div>
+  <h2>THE BATTLE ARENA</h2>
+  <p class="sub">Pick two dinosaurs and see who comes out on top. Green numbers win, grey numbers lose.</p>
+
+  <div class="arena">
+    <div class="fighter">
+      <select id="fighter-a" aria-label="Choose the first dinosaur"></select>
+      <div class="fname" id="name-a">—</div>
+      <div class="fstats" id="stats-a"></div>
+    </div>
+
+    <div class="vs">VS</div>
+
+    <div class="fighter">
+      <select id="fighter-b" aria-label="Choose the second dinosaur"></select>
+      <div class="fname" id="name-b">—</div>
+      <div class="fstats" id="stats-b"></div>
+    </div>
+  </div>
+
+  <div class="verdict" id="verdict"></div>
+</section></div>
+
+<!-- ══════════ THE ERAS ══════════ -->
+<section id="eras">
+  <div class="kicker">// Time Travel</div>
+  <h2>THE 3 DINO ERAS</h2>
+  <p class="sub">Dinosaurs didn't all live at the same time. T. rex lived closer to YOU than to Stegosaurus. Mind = blown. 🤯</p>
+
+  <div class="timeline">
+    <div class="era reveal">
+      <div class="when">252–201 MILLION YEARS AGO</div>
+      <h3>TRIASSIC</h3>
+      <p>The starting line. All the land on Earth was squashed into one giant continent — hot, dry and dusty. The very first dinosaurs appear: small, quick and always hungry.</p>
+      <div class="who">STARS: <span>the first small hunters</span></div>
+    </div>
+    <div class="era reveal">
+      <div class="when">201–145 MILLION YEARS AGO</div>
+      <h3>JURASSIC</h3>
+      <p>Dinosaurs go BIG. Enormous long-necks stomp through steamy forests, huge plant-eaters travel in herds, and the very first birds take to the sky.</p>
+      <div class="who">STARS: <span>Brachiosaurus · Dilophosaurus</span></div>
+    </div>
+    <div class="era reveal">
+      <div class="when">145–66 MILLION YEARS AGO</div>
+      <h3>CRETACEOUS</h3>
+      <p>The final level. Flowers appear for the first time and the most famous dinosaurs rule the planet — until a 10 km asteroid slams into Earth and ends the game.</p>
+      <div class="who">STARS: <span>T. rex · Triceratops · Velociraptor</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ BIG NUMBERS ══════════ -->
+<section>
+  <div class="kicker">// Dino Maths</div>
+  <h2>NUMBERS THAT GO HARD</h2>
+  <p class="sub">&nbsp;</p>
+  <div class="bignums">
+    <div class="num reveal"><div class="n">165M</div><div class="d">years dinosaurs ruled the Earth</div></div>
+    <div class="num reveal"><div class="n">700+</div><div class="d">dinosaur species found so far</div></div>
+    <div class="num reveal"><div class="n">58 KM/H</div><div class="d">top speed of the fastest dinosaurs</div></div>
+    <div class="num reveal"><div class="n">1</div><div class="d">asteroid that changed everything</div></div>
+  </div>
+</section>
+
+<!-- ══════════ FACT MACHINE ══════════ -->
+<section id="facts">
+  <div class="machine reveal">
+    <div class="kicker">// Press The Button</div>
+    <h2>THE FACT MACHINE</h2>
+    <div id="fact">Press the button to dig up a fact! 🦴</div>
+    <button class="btn btn-lime" onclick="newFact()">DIG UP A FACT ⛏️</button>
+  </div>
+</section>
+
+<!-- ══════════ QUIZ ══════════ -->
+<section id="quiz">
+  <div class="kicker">// Prove It</div>
+  <h2>THE DINO QUIZ</h2>
+  <p class="sub">Six questions. Can you reach Dinosaur Professor rank?</p>
+  <div class="quiz-box" id="quiz-box"><!-- built by app.js --></div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="fbig">🦖 MAUI'S DINO ZONE</div>
+  <div>Made by <b>Maui</b> · Dino Zone HQ · Fuelled by fossils &amp; snacks</div>
+  <div class="credit">
+    &copy; <span id="year">2026</span> Maui's Dino Zone · Dinosaur photographs from Wikipedia / Wikimedia Commons<br>
+    Powered by AI Capital Apps
+  </div>
+</footer>
+
+<script src="dinos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

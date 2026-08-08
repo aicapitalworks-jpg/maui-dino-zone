@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460">
+<defs>
+  <linearGradient id="sky-brachiosaurus" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#242a24"/>
+    <stop offset="55%" stop-color="#171b17"/>
+    <stop offset="100%" stop-color="#0d0f0d"/>
+  </linearGradient>
+  <radialGradient id="sun-brachiosaurus" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#4CAF2E" stop-opacity=".55"/>
+    <stop offset="70%" stop-color="#4CAF2E" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#4CAF2E" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="body-brachiosaurus" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4CAF2E"/>
+    <stop offset="100%" stop-color="#1b2a14"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="460" fill="url(#sky-brachiosaurus)"/>
+<circle cx="592" cy="150" r="185" fill="url(#sun-brachiosaurus)"/>
+<circle cx="592" cy="150" r="74" fill="#4CAF2E" opacity=".16"/>
+
+<!-- far hills -->
+<path d="M0 372 L92 322 L168 356 L248 306 L336 352 L432 300 L540 350 L640 312 L724 352 L800 322 L800 460 L0 460 Z" fill="#0b0d0b" opacity=".85"/>
+
+<!-- ground -->
+<rect y="400" width="800" height="60" fill="#0a0c0a"/>
+
+
+<!-- far legs (behind, darker) -->
+<g fill="#16210f">
+  <path d="M290 316 L282 424 L322 424 L326 314 Z"/>
+  <path d="M446 306 L440 424 L480 424 L484 302 Z"/>
+</g>
+<g fill="url(#body-brachiosaurus)">
+  <!-- tail -->
+  <path d="M270 296 Q196 274 120 262 Q56 254 18 258 Q58 276 122 288 Q198 302 266 314 Z"/>
+  <!-- body: heavy oval, shoulders higher than hips -->
+  <path d="M496 258 Q432 224 356 232 Q286 240 244 276 Q222 296 224 318
+    Q228 344 268 356 Q346 376 428 366 Q486 358 516 330 Q536 306 528 282 Z"/>
+  <!-- near legs: thick pillars -->
+  <path d="M264 344 L252 424 L296 424 L302 342 Z"/>
+  <path d="M470 348 L462 424 L506 424 L512 342 Z"/>
+  <!-- THE GREAT NECK: long tapering column, shoulders -> sky -->
+  <path d="M496 258
+    Q512 216 536 172 Q562 124 588 84 Q606 56 622 38
+    L654 54 Q638 76 622 106 Q598 152 578 198 Q558 246 542 292
+    Q524 316 500 322 Q516 292 520 262 Z"/>
+</g>
+<!-- head: small, high, with the signature nose crest -->
+<g fill="url(#body-brachiosaurus)">
+  <path d="M622 38 Q646 16 678 18 Q706 20 716 40 Q722 58 706 68
+    Q684 78 660 70 Q636 62 622 38 Z"/>
+  <!-- snout -->
+  <path d="M706 44 Q734 42 748 54 Q756 66 744 72 Q722 74 708 64 Z"/>
+</g>
+<!-- nose crest bump -->
+<path d="M652 20 Q672 4 692 14 Q702 24 690 30 Q666 32 652 20 Z" fill="#5f8f34"/>
+<!-- eye -->
+<circle cx="684" cy="42" r="6" fill="#0a0c0a"/>
+<circle cx="686" cy="40" r="2.5" fill="#FFD427"/>
+<!-- leaves it is reaching for -->
+<g fill="#8BE13C" opacity=".45">
+  <ellipse cx="778" cy="34" rx="22" ry="9" transform="rotate(-20 778 34)"/>
+  <ellipse cx="790" cy="62" rx="17" ry="8" transform="rotate(10 790 62)"/>
+  <ellipse cx="762" cy="14" rx="15" ry="7" transform="rotate(-8 762 14)"/>
+</g>
+
+<title>BRACHIOSAURUS</title>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460">
+<defs>
+  <linearGradient id="sky-trex" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#242a24"/>
+    <stop offset="55%" stop-color="#171b17"/>
+    <stop offset="100%" stop-color="#0d0f0d"/>
+  </linearGradient>
+  <radialGradient id="sun-trex" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8BE13C" stop-opacity=".55"/>
+    <stop offset="70%" stop-color="#8BE13C" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#8BE13C" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="body-trex" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8BE13C"/>
+    <stop offset="100%" stop-color="#1b2a14"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="460" fill="url(#sky-trex)"/>
+<circle cx="592" cy="150" r="185" fill="url(#sun-trex)"/>
+<circle cx="592" cy="150" r="74" fill="#8BE13C" opacity=".16"/>
+
+<!-- far hills -->
+<path d="M0 372 L92 322 L168 356 L248 306 L336 352 L432 300 L540 350 L640 312 L724 352 L800 322 L800 460 L0 460 Z" fill="#0b0d0b" opacity=".85"/>
+
+<!-- ground -->
+<rect y="400" width="800" height="60" fill="#0a0c0a"/>
+
+
+<g fill="url(#body-trex)">
+  <!-- tail + body + neck + head, one silhouette -->
+  <path d="M726 150
+    Q700 128 664 126 Q628 124 606 144 Q590 158 586 178
+    L556 196 Q506 208 470 236 Q438 262 404 272
+    Q340 290 268 282 Q196 274 116 240 Q68 218 40 196
+    Q60 232 108 262 Q186 310 272 320 Q332 327 386 316
+    L392 356 Q392 392 380 424 L420 424 Q436 386 434 348 L432 312
+    Q470 322 506 322 L508 366 Q506 398 494 424 L534 424
+    Q550 386 548 350 L546 310 Q592 296 622 266 Q650 238 654 206
+    L686 196 Q712 180 726 150 Z"/>
+  <!-- lower jaw -->
+  <path d="M726 150 Q694 176 656 186 L634 190 Q650 206 676 202 Q708 196 726 150 Z" opacity=".8"/>
+  <!-- tiny arm -->
+  <path d="M556 236 Q578 250 596 250 Q604 262 594 266 Q570 264 552 250 Z" fill="#16210f"/>
+  <!-- back ridge -->
+  <path d="M470 236 Q510 210 556 196 L560 206 Q514 222 478 246 Z" fill="#5f8f34" opacity=".55"/>
+</g>
+<!-- eye -->
+<circle cx="668" cy="152" r="7" fill="#0a0c0a"/>
+<circle cx="670" cy="150" r="3" fill="#FFD427"/>
+<!-- teeth -->
+<g fill="#F7F7F2">
+  <path d="M700 168 l7 14 l6 -16 Z"/><path d="M684 176 l7 14 l6 -16 Z"/><path d="M668 182 l6 13 l6 -15 Z"/>
+</g>
+
+<title>TYRANNOSAURUS REX</title>
+</svg>

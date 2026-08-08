@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460">
+<defs>
+  <linearGradient id="sky-velociraptor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#242a24"/>
+    <stop offset="55%" stop-color="#171b17"/>
+    <stop offset="100%" stop-color="#0d0f0d"/>
+  </linearGradient>
+  <radialGradient id="sun-velociraptor" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8BE13C" stop-opacity=".55"/>
+    <stop offset="70%" stop-color="#8BE13C" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#8BE13C" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="body-velociraptor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8BE13C"/>
+    <stop offset="100%" stop-color="#1b2a14"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="460" fill="url(#sky-velociraptor)"/>
+<circle cx="592" cy="150" r="185" fill="url(#sun-velociraptor)"/>
+<circle cx="592" cy="150" r="74" fill="#8BE13C" opacity=".16"/>
+
+<!-- far hills -->
+<path d="M0 372 L92 322 L168 356 L248 306 L336 352 L432 300 L540 350 L640 312 L724 352 L800 322 L800 460 L0 460 Z" fill="#0b0d0b" opacity=".85"/>
+
+<!-- ground -->
+<rect y="400" width="800" height="60" fill="#0a0c0a"/>
+
+
+<!-- far leg (behind) -->
+<g fill="#16210f">
+  <path d="M470 286 Q486 320 480 348 L462 386 Q456 400 462 408 L488 408
+    Q494 396 490 384 L500 350 Q512 316 502 284 Z"/>
+</g>
+<!-- torso mass -->
+<ellipse cx="548" cy="288" rx="76" ry="42" transform="rotate(-16 548 288)" fill="url(#body-velociraptor)"/>
+<g fill="url(#body-velociraptor)">
+  <!-- long straight tail + body + neck + head -->
+  <path d="M756 178 Q728 156 696 160 Q670 164 658 186 L644 208
+    Q612 224 586 248 Q560 272 528 284
+    Q480 302 424 300 Q352 296 268 274 Q186 250 104 220
+    Q180 268 268 296 Q352 322 424 326 Q470 328 512 318
+    Q560 306 592 280 Q622 254 638 224 L654 214
+    Q722 208 756 178 Z"/>
+  <!-- near leg: thigh -> shin -> foot -->
+  <path d="M508 292 Q536 318 534 350 L520 384 Q512 402 520 412 L554 412
+    Q560 398 552 386 L562 348 Q568 306 544 282 Z"/>
+</g>
+<!-- feet + sickle claws -->
+<g fill="#1a2610">
+  <path d="M462 408 L436 408 Q426 408 428 416 L494 416 Q498 408 488 408 Z"/>
+  <path d="M520 412 L494 412 Q484 412 486 420 L556 420 Q560 412 550 412 Z"/>
+</g>
+<g fill="#E8E6DA">
+  <path d="M436 408 Q418 400 412 384 Q430 392 442 404 Z"/>
+  <path d="M494 412 Q476 404 470 388 Q488 396 500 408 Z"/>
+</g>
+<!-- feather crest along back and tail -->
+<g fill="#FFD427" opacity=".5">
+  <path d="M528 284 q30 -24 60 -38 l5 11 q-32 16 -58 38 Z"/>
+  <path d="M424 300 q58 4 112 -18 l3 11 q-58 24 -118 19 Z"/>
+  <path d="M268 274 q42 12 86 21 l-3 11 q-46 -9 -88 -23 Z"/>
+  <path d="M104 220 q40 18 84 33 l-4 10 q-44 -16 -84 -35 Z"/>
+</g>
+<!-- feathered arm with plume -->
+<path d="M586 252 Q616 272 640 278 Q656 290 640 296 Q606 290 580 268 Z" fill="#16210f"/>
+<g fill="#8BE13C" opacity=".6">
+  <path d="M618 276 q24 6 44 24 q-28 -4 -48 -14 Z"/>
+  <path d="M602 268 q22 14 38 34 q-28 -10 -46 -24 Z"/>
+  <path d="M634 284 q22 10 38 28 q-26 -6 -44 -18 Z"/>
+</g>
+<!-- eye + teeth -->
+<circle cx="714" cy="186" r="6" fill="#0a0c0a"/>
+<circle cx="716" cy="184" r="2.5" fill="#FFD427"/>
+<g fill="#F7F7F2">
+  <path d="M740 196 l5 11 l5 -12 Z"/><path d="M726 202 l5 11 l5 -12 Z"/>
+</g>
+
+<title>VELOCIRAPTOR</title>
+</svg>

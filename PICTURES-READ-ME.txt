@@ -1,0 +1,52 @@
+🦖 MAUI'S DINO ZONE — THE PICTURES FOLDER
+=========================================
+
+Right now the website automatically loads real dinosaur pictures from
+Wikipedia, so it already looks good with no work from you.
+
+But when Maui finds pictures he likes better, put them HERE in this folder
+and the website will use HIS pictures instead. It happens automatically.
+
+
+HOW TO ADD MAUI'S OWN PICTURES
+------------------------------
+
+1. Find a dinosaur picture Maui likes.
+2. Save it into this folder (./).
+3. Name the file EXACTLY like this list — spelling and lowercase matter:
+
+      trex.jpg
+      triceratops.jpg
+      velociraptor.jpg
+      brachiosaurus.jpg
+      dilophosaurus.jpg
+
+4. Refresh the website. Done! Maui's picture appears.
+
+
+TIPS FOR GOOD PICTURES
+----------------------
+
+* Wide pictures look best (landscape, not tall) — the card is a wide box.
+* Around 800 to 1200 pixels wide is perfect.
+* Keep each file under about 500 KB so the website loads fast.
+* .jpg works best. If you want to use a .png file, that's fine too — just
+  open assets/js/dinos.js and change "trex.jpg" to "trex.png" for that dino.
+
+
+WHERE TO FIND FREE PICTURES YOU'RE ALLOWED TO USE
+-------------------------------------------------
+
+* Wikimedia Commons  — commons.wikimedia.org  (search the dinosaur name)
+* Wikipedia          — the picture at the top of each dinosaur's page
+
+These are free to use. Please don't take pictures from Google Images,
+because most of those belong to somebody else.
+
+
+ADDING A BRAND NEW DINOSAUR
+---------------------------
+
+Open  assets/js/dinos.js , copy one whole dinosaur block (everything from
+{ to } including the comma), paste it at the bottom of the list, and change
+the words. Remember to add the picture to this folder too.

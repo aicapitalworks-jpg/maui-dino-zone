@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460">
+<defs>
+  <linearGradient id="sky-dilophosaurus" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#242a24"/>
+    <stop offset="55%" stop-color="#171b17"/>
+    <stop offset="100%" stop-color="#0d0f0d"/>
+  </linearGradient>
+  <radialGradient id="sun-dilophosaurus" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFD427" stop-opacity=".55"/>
+    <stop offset="70%" stop-color="#FFD427" stop-opacity=".10"/>
+    <stop offset="100%" stop-color="#FFD427" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="body-dilophosaurus" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFD427"/>
+    <stop offset="100%" stop-color="#1b2a14"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="460" fill="url(#sky-dilophosaurus)"/>
+<circle cx="592" cy="150" r="185" fill="url(#sun-dilophosaurus)"/>
+<circle cx="592" cy="150" r="74" fill="#FFD427" opacity=".16"/>
+
+<!-- far hills -->
+<path d="M0 372 L92 322 L168 356 L248 306 L336 352 L432 300 L540 350 L640 312 L724 352 L800 322 L800 460 L0 460 Z" fill="#0b0d0b" opacity=".85"/>
+
+<!-- ground -->
+<rect y="400" width="800" height="60" fill="#0a0c0a"/>
+
+
+<g fill="url(#body-dilophosaurus)">
+  <!-- tail, body, long neck, narrow head -->
+  <path d="M760 138 Q734 120 706 124 Q684 128 674 148 L662 168
+    Q640 186 616 194 Q590 202 570 220 Q546 244 518 258
+    Q470 280 412 280 Q336 280 250 258 Q168 238 92 210
+    Q164 254 250 280 Q336 306 408 306 L418 312
+    Q412 348 396 392 L432 396 Q452 350 458 312 L466 296
+    Q500 310 534 308 L532 350 Q526 384 514 414 L550 416
+    Q568 374 568 336 L570 296 Q606 280 628 252 Q648 224 648 198 L660 190
+    Q730 176 760 138 Z"/>
+  <!-- arm -->
+  <path d="M572 232 Q600 252 622 258 Q636 270 622 276 Q590 270 566 250 Z" fill="#16210f"/>
+  <!-- back stripe -->
+  <path d="M518 258 q28 -20 52 -38 l5 10 q-26 18 -52 38 Z" fill="#5f8f34" opacity=".6"/>
+  <path d="M412 280 q54 4 106 -14 l3 10 q-54 20 -110 16 Z" fill="#5f8f34" opacity=".6"/>
+</g>
+<!-- THE TWO CRESTS — the signature feature -->
+<g fill="#FFD427">
+  <path d="M690 118 Q700 74 730 50 Q744 40 754 44 Q744 74 730 100 Q716 118 700 124 Z"/>
+  <path d="M668 126 Q676 84 702 58 Q714 48 722 52 Q714 82 702 108 Q690 126 676 132 Z" opacity=".78"/>
+</g>
+<g stroke="#E0B412" stroke-width="2" fill="none" opacity=".7">
+  <path d="M700 112 Q716 84 738 60"/>
+  <path d="M682 120 Q696 92 714 68"/>
+</g>
+<!-- eye + teeth -->
+<circle cx="716" cy="146" r="6" fill="#0a0c0a"/>
+<circle cx="718" cy="144" r="2.5" fill="#FFD427"/>
+<g fill="#F7F7F2">
+  <path d="M744 154 l5 11 l5 -12 Z"/><path d="M730 160 l5 11 l5 -12 Z"/><path d="M716 165 l4 10 l5 -11 Z"/>
+</g>
+
+<title>DILOPHOSAURUS</title>
+</svg>
