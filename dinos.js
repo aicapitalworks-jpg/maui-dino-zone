@@ -160,9 +160,145 @@ const DINOS = [
 
     image: "dilophosaurus.jpg",
     wiki: "Dilophosaurus"
+  },
+
+  {
+    id: "stegosaurus",
+    name: "STEGOSAURUS",
+    fullName: "Stegosaurus stenops",
+    say: "STEG oh SORE us",
+    nickname: "The Spike Tail",
+    diet: "plant",
+    era: "Jurassic",
+
+    meaning: "Roofed Lizard",
+    family: "Stegosauridae",
+    weight: "5,000 kg",
+    weightNote: "about the same as a big truck",
+    size: "9 metres long, 4 metres tall",
+
+    power: 75,
+    speed: 25,
+    brains: 20,
+
+    about: "Two rows of huge bony plates run down its back and four long spikes stick out of its tail. It walked slowly, ate low plants all day, and had a brain the size of a walnut inside a body the size of a bus.",
+
+    mauiFact: "The four spikes on its tail have a funny official name: the thagomizer. A cartoonist made the word up as a joke and scientists liked it so much they kept it! And it really was a weapon. Scientists found a Stegosaurus spike that matched a hole punched into the tail bone of an Allosaurus, so we know it fought back and won.",
+
+    image: "stegosaurus.jpg",
+    wiki: "Stegosaurus"
+  },
+
+  {
+    id: "pachycephalosaurus",
+    name: "PACHYCEPHALOSAURUS",
+    fullName: "Pachycephalosaurus wyomingensis",
+    say: "PACK ee SEF ah lo SORE us",
+    nickname: "The Helmet Head",
+    diet: "plant",
+    era: "Cretaceous",
+
+    meaning: "Thick Headed Lizard",
+    family: "Pachycephalosauridae",
+    weight: "450 kg",
+    weightNote: "about the same as a horse",
+    size: "4.5 metres long, 2 metres tall",
+
+    power: 60,
+    speed: 62,
+    brains: 45,
+
+    about: "It wore a solid dome of bone on top of its skull, ringed with little spikes, like a built in crash helmet. The rest of it was a fast runner on two legs that ate leaves, seeds and fruit.",
+
+    mauiFact: "Scientists checked 109 of these bony domes and found that 22 of every 100 had healed injuries on them, all bunched around the very top. That is exactly where the damage would be if they charged at each other head first, like rams do today. The young ones had no injuries at all, so only the grown ups joined the head bashing contests.",
+
+    image: "pachycephalosaurus.jpg",
+    wiki: "Pachycephalosaurus"
+  },
+
+  {
+    id: "parasaurolophus",
+    name: "PARASAUROLOPHUS",
+    fullName: "Parasaurolophus walkeri",
+    say: "PA ra saw ROL oh fus",
+    nickname: "The Trumpet",
+    diet: "plant",
+    era: "Cretaceous",
+
+    meaning: "Near Crested Lizard",
+    family: "Hadrosauridae",
+    weight: "2,500 kg",
+    weightNote: "about the same as a rhino",
+    size: "10 metres long, 5 metres tall",
+
+    power: 45,
+    speed: 50,
+    brains: 60,
+
+    about: "The long curved tube on its head is not a horn. It is hollow, and the nostrils run all the way up inside it and back down again. It walked on four legs to eat and on two legs to run.",
+
+    mauiFact: "Maui is right, the crest made sounds! It is a hollow tube, so when air went through it the whole thing worked like a giant trumpet. In 1997 scientists put a fossil crest through a medical scanner, took 350 slices of it, built it inside a computer and blew air through the model. Out came a deep rumbling honk. We have actually heard the voice of a dinosaur that died 75 million years ago.",
+
+    image: "parasaurolophus.jpg",
+    wiki: "Parasaurolophus"
+  },
+
+  {
+    id: "carnotaurus",
+    name: "CARNOTAURUS",
+    fullName: "Carnotaurus sastrei",
+    say: "CAR no TORE us",
+    nickname: "The Bull",
+    diet: "meat",
+    era: "Cretaceous",
+
+    meaning: "Meat Eating Bull",
+    family: "Abelisauridae",
+    weight: "1,500 kg",
+    weightNote: "about the same as a small car",
+    size: "8 metres long, 3 metres tall",
+
+    power: 82,
+    speed: 88,
+    brains: 62,
+
+    about: "A hunter with two thick horns above its eyes, like a bull. Its arms were even more useless than T. rex arms, tiny little stumps that could not reach its own mouth. It made up for that with speed.",
+
+    mauiFact: "This was probably the fastest big hunter that ever lived. The secret was hidden in its tail: a running muscle that pulled its legs backwards with every step. For its body size it is the biggest muscle of that kind ever found on any animal, alive or extinct. But there was a catch. Its tail was so stiff that it could barely turn. It was brilliant in a straight line and terrible at corners.",
+
+    image: "carnotaurus.jpg",
+    wiki: "Carnotaurus"
+  },
+
+  {
+    id: "compsognathus",
+    name: "COMPSOGNATHUS",
+    fullName: "Compsognathus longipes",
+    say: "komp SOG na thus",
+    nickname: "The Little One",
+    diet: "meat",
+    era: "Jurassic",
+
+    meaning: "Elegant Jaw",
+    family: "Compsognathidae",
+    weight: "3 kg",
+    weightNote: "about the same as a chicken",
+    size: "1 metre long, 0.4 metres tall",
+
+    power: 15,
+    speed: 95,
+    brains: 72,
+
+    about: "One of the smallest dinosaurs ever found, no bigger than a chicken. It was quick, light and sharp eyed, and it chased little animals through the bushes on two skinny legs.",
+
+    mauiFact: "We know exactly what one of them ate for its last meal. A fossil was found with a whole tiny lizard still sitting inside its rib cage, swallowed in one piece. At first scientists thought it was a baby Compsognathus, but it turned out to be lunch. It is one of the only times we get to see the actual last dinner of a dinosaur.",
+
+    image: "compsognathus.jpg",
+    wiki: "Compsognathus"
   }
 
 ];
+
 
 
 /* ==========================================================================
@@ -183,7 +319,14 @@ const FACT_MACHINE = [
   "A Triceratops skull could be 2.5 metres long, bigger than your bed. 🛏️",
   "T. rex lived closer in time to YOU than to Stegosaurus. 🤯",
   "Velociraptors had feathers, just like an eagle. ⚡",
-  "Dinosaurs ruled the Earth for 165 million years. Humans have been here 0.3 million. ⏳"
+  "Dinosaurs ruled the Earth for 165 million years. Humans have been here 0.3 million. ⏳",
+  "The spikes on a Stegosaurus tail are officially called a thagomizer, a name invented by a cartoonist. 🦕",
+  "Stegosaurus had a brain the size of a walnut inside a body as big as a bus. 🥜",
+  "Pachycephalosaurus had a dome of solid bone on its head, like a built in crash helmet. 🪖",
+  "Scientists used a hospital scanner to rebuild a Parasaurolophus crest and actually played its call. 🎺",
+  "Carnotaurus had horns like a bull and arms so tiny they could not reach its own mouth. 🐂",
+  "Compsognathus was no bigger than a chicken. One fossil still has its last meal inside it. 🐔",
+  "Carnotaurus was built for straight lines. Its tail was so stiff it could barely turn a corner. 💨"
 ];
 
 
@@ -228,5 +371,29 @@ const QUIZ = [
     options: ["Crocodiles", "Birds", "Lizards", "Sharks"],
     answer: 1,
     why: "Birds evolved from small feathered dinosaurs. They never went extinct!"
+  },
+  {
+    q: "What is the funny official name for the spikes on a Stegosaurus tail?",
+    options: ["The thagomizer", "The spikeulator", "The tail crown", "The stegospike"],
+    answer: 0,
+    why: "A cartoonist invented the word as a joke and scientists kept it."
+  },
+  {
+    q: "Why did Pachycephalosaurus have a thick dome of bone on its head?",
+    options: ["To carry water", "To bash heads with other dinosaurs", "To dig holes", "To help it swim"],
+    answer: 1,
+    why: "22 of every 100 domes have healed injuries right on the top, from charging head first."
+  },
+  {
+    q: "What was special about the crest on a Parasaurolophus head?",
+    options: ["It was hollow and made sounds", "It was full of poison", "It could change colour", "It was solid bone"],
+    answer: 0,
+    why: "It worked like a trumpet. Scientists rebuilt one in a computer and heard the sound."
+  },
+  {
+    q: "Which dinosaur was about the size of a chicken?",
+    options: ["Carnotaurus", "Stegosaurus", "Compsognathus", "Parasaurolophus"],
+    answer: 2,
+    why: "Compsognathus was around 1 metre long and weighed about 3 kg."
   }
 ];
