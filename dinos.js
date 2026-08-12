@@ -44,7 +44,7 @@ const DINOS = [
     brains: 75,
 
     // ── THE DESCRIPTION ───────────────────────────
-    about: "The most famous dinosaur of all time. Teeth the size of bananas, a bite strong enough to crush a car, and arms so small they became a joke. Nobody was laughing 66 million years ago.",
+    about: "T. rex is the most famous dinosaur. Its teeth were as big as bananas. Its bite could crush a car. Its arms were tiny. But it was still huge and scary.",
 
     // ── ⭐ MAUI'S OWN FACT ────────────────────────
     mauiFact: "Everybody makes fun of T. rex for having tiny arms, but those arms were seriously strong. Scientists worked out that each one could pull about 200 kg towards its chest, and its biceps was three times thicker than a grown up's. Small arms, weightlifter muscles!",
@@ -73,7 +73,7 @@ const DINOS = [
     speed: 40,
     brains: 55,
 
-    about: "Three sharp horns and a giant bony shield around its neck. Triceratops ate plants, but it was one of the only dinosaurs brave enough to stand its ground against a T. rex.",
+    about: "It had three horns and a big bony shield. Triceratops ate plants. It was brave. It could fight off a T. rex.",
 
     mauiFact: "You might think Triceratops was one of the smaller dinosaurs. It wasn't! It was bigger than an African elephant. Around 9 metres long, with a head so huge it could be 2.5 metres by itself.",
 
@@ -100,7 +100,7 @@ const DINOS = [
     speed: 92,
     brains: 90,
 
-    about: "Forget the movies. The real Velociraptor was the size of a turkey and covered in feathers. But it was lightning fast, very smart, and had a killer curved claw on each foot.",
+    about: "The real Velociraptor was small, like a turkey. It had feathers, not scales. It was fast and smart. It had a sharp claw on each foot.",
 
     mauiFact: "In Jurassic Park the Velociraptor looks huge, but the real one was tiny, about the size of a turkey. And it didn't have scaly reptile skin either. It was covered in feathers, just like a bird. Scientists know because they found the little bumps on its arm bones where the feathers attached.",
 
@@ -127,7 +127,7 @@ const DINOS = [
     speed: 20,
     brains: 35,
 
-    about: "Taller than a four storey building. Its front legs were longer than its back legs, so it stood tilted upward like a giraffe and ate leaves nothing else could reach.",
+    about: "It was as tall as four houses stacked up. Its front legs were longer than its back legs. That made its body slope up, like a ramp. It could reach leaves no one else could reach.",
 
     mauiFact: "In Jurassic Park, Brachiosaurus stands up on its back legs to reach the leaves. It could never really do that! Scientists tested it and found Brachiosaurus was far too heavy at the front, so it would have wobbled and fallen over. The real one also had a much thicker neck and a rounder belly than the movie version.",
 
@@ -154,7 +154,7 @@ const DINOS = [
     speed: 78,
     brains: 70,
 
-    about: "Two thin bony crests sat on top of its head like a crown. The movies gave it a neck frill and venom spit. Scientists say neither of those was real. The truth is cooler: it was one of the biggest hunters of its time.",
+    about: "Two thin crests sat on its head, like a crown. In movies it had a neck frill and spat venom. That part is not true. It was really one of the biggest hunters of its time.",
 
     mauiFact: "Jurassic Park got this dinosaur almost completely wrong. In the film it's small, it pops open a frilly collar and it spits venom. None of that is real! The actual Dilophosaurus had no frill, never spat venom, and was WAY bigger, about 7 metres long, one of the biggest hunters alive in its time.",
 
@@ -181,7 +181,7 @@ const DINOS = [
     speed: 25,
     brains: 20,
 
-    about: "Two rows of huge bony plates run down its back and four long spikes stick out of its tail. It walked slowly, ate low plants all day, and had a brain the size of a walnut inside a body the size of a bus.",
+    about: "Big bony plates ran down its back. Long spikes stuck out of its tail. It walked slowly and ate low plants. Its brain was as small as a walnut. But its body was as big as a bus.",
 
     mauiFact: "The four spikes on its tail have a funny official name: the thagomizer. A cartoonist made the word up as a joke and scientists liked it so much they kept it! And it really was a weapon. Scientists found a Stegosaurus spike that matched a hole punched into the tail bone of an Allosaurus, so we know it fought back and won.",
 
@@ -208,7 +208,7 @@ const DINOS = [
     speed: 62,
     brains: 45,
 
-    about: "It wore a solid dome of bone on top of its skull, ringed with little spikes, like a built in crash helmet. The rest of it was a fast runner on two legs that ate leaves, seeds and fruit.",
+    about: "It had a hard dome of bone on its head. Little spikes ringed the dome, like a helmet. It ran fast on two legs. It ate leaves, seeds, and fruit.",
 
     mauiFact: "Scientists checked 109 of these bony domes and found that 22 of every 100 had healed injuries on them, all bunched around the very top. That is exactly where the damage would be if they charged at each other head first, like rams do today. The young ones had no injuries at all, so only the grown ups joined the head bashing contests.",
 
@@ -235,7 +235,7 @@ const DINOS = [
     speed: 50,
     brains: 60,
 
-    about: "The long curved tube on its head is not a horn. It is hollow, and the nostrils run all the way up inside it and back down again. It walked on four legs to eat and on two legs to run.",
+    about: "The long tube on its head was not a horn. It was hollow inside. Air went up and down through it. It walked on four legs to eat. It ran on two legs.",
 
     mauiFact: "Maui is right, the crest made sounds! It is a hollow tube, so when air went through it the whole thing worked like a giant trumpet. In 1997 scientists put a fossil crest through a medical scanner, took 350 slices of it, built it inside a computer and blew air through the model. Out came a deep rumbling honk. We have actually heard the voice of a dinosaur that died 75 million years ago.",
 
@@ -262,7 +262,7 @@ const DINOS = [
     speed: 88,
     brains: 62,
 
-    about: "A hunter with two thick horns above its eyes, like a bull. Its arms were even more useless than T. rex arms, tiny little stumps that could not reach its own mouth. It made up for that with speed.",
+    about: "It had two thick horns above its eyes, like a bull. Its arms were tiny, even smaller than a T. rex's. It could not even reach its own mouth. But it was super fast.",
 
     mauiFact: "This was probably the fastest big hunter that ever lived. The secret was hidden in its tail: a running muscle that pulled its legs backwards with every step. For its body size it is the biggest muscle of that kind ever found on any animal, alive or extinct. But there was a catch. Its tail was so stiff that it could barely turn. It was brilliant in a straight line and terrible at corners.",
 
@@ -289,7 +289,7 @@ const DINOS = [
     speed: 95,
     brains: 72,
 
-    about: "One of the smallest dinosaurs ever found, no bigger than a chicken. It was quick, light and sharp eyed, and it chased little animals through the bushes on two skinny legs.",
+    about: "It was one of the smallest dinosaurs. It was no bigger than a chicken. It was quick and light. It chased small animals on two skinny legs.",
 
     mauiFact: "We know exactly what one of them ate for its last meal. A fossil was found with a whole tiny lizard still sitting inside its rib cage, swallowed in one piece. At first scientists thought it was a baby Compsognathus, but it turned out to be lunch. It is one of the only times we get to see the actual last dinner of a dinosaur.",
 
